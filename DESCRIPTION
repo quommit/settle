@@ -1,9 +1,13 @@
 Package: settle
 Type: Package
-Title: What the package does (short line)
-Version: 1.0
+Title: Builds Neo4j graph databases from documents with spatial semantics
+Version: 1.0.0
 Date: 2015-04-15
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Jose Tomas Navarro Carrion
+Maintainer: Jose Tomas Navarro Carrion <jt.navarro@ua.es>
+Description: settle is an R package that lets you build a Neo4j graph database
+   from a structured YAML document with spatial semantics such as land records
+   identifying owners, neighbours, boundaries or lot clusters, but no geometry
+   data
+License: GNU GENERAL PUBLIC LICENSE Version 3
+Imports: testthat (>=0.9.1)
