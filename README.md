@@ -1,2 +1,2 @@
 # settle
-R package that builds Neo4j graph databases from documents with spatial semantics
+*settle* is an R package that lets you build a Neo4j graph database from a structured YAML document with spatial semantics such as land records identifying owners, neighbours, boundaries or lot clusters, but no geometry data. It also provides researchers with tools for traversing the graph and generate visualizations that are useful in order to explore spatial patterns in the absence of numerical cartography.
