@@ -1,7 +1,7 @@
 Package: settle
 Type: Package
 Title: Builds Neo4j graph databases from documents with spatial semantics
-Version: 1.0.0
+Version: 0.1.0
 Date: 2015-04-15
 Author: Jose Tomas Navarro Carrion
 Maintainer: Jose Tomas Navarro Carrion <jt.navarro@ua.es>
