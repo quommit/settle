@@ -12,5 +12,6 @@ Description: settle is an R package that lets you build a Neo4j graph database
    geometry data.
 Depends: R (>=3.1.0)
 License: GPL-3
+LazyData: true
 BugReports: https://github.com/quommit/settle/issues
 Imports: testthat (>=0.9.1)
