@@ -1,0 +1,13 @@
+﻿---
+# Dummy file for unit testing purposes.
+# Do not delete.
+
+Structure:
+Title:
+Description:
+Landmetrics:
+  Area_Unit:
+  Area_Conv:
+Aggregations:
+Spatial_data:
+...
