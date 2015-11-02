@@ -155,7 +155,7 @@ load_header <- function(document) {
   if (is.vector(document$Spatial_data)) {
     geom <- lapply(document$Spatial_data, function(x) {
       rgdal::readOGR(dsn = x,  layer = rgdal::ogrListLayers(x))})
-    geom <- setNames(geom, basename(document$Spatial_data))    
+    geom <- stats::setNames(geom, basename(document$Spatial_data))    
   }
   header <- list(metadata = meta, geometries = geom)
   return(header)

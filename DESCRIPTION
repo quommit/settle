@@ -30,4 +30,5 @@ Imports: yaml,
     reshape2,
     utils,
     tools,
-    sp
+    sp, 
+    stats
